@@ -1,0 +1,74 @@
+DAVID SEVA AMORÓS. Práctica 5.
+
+PARTE 1
+
+          Test                          ArrayList       LinkedList (nanosegundos)
+------------------------------------    ---------       ----------
+1.Insertar al final de la lista         1378            840
+2.Insertar al principio de la lista     39              9698
+3.Insertar a mitad de la lista          1496            15388
+4.Borrar al final de la lista           1153            1476
+5.Borrar al principio de la lista       2669            1271
+6.Borrar en medio de la lista           1886            3392
+7.Borrar al final por su valor          2199            1652
+8.Borrar al principio por su valor      2219            1329
+9.Borrar en medio por su valor          2229            2072
+10.Vaciado completo de la lista         35988           65415
+11.Búsqueda usando funciones propias    3460            2131
+12.Búsqueda implementando funciones     2424           2366
+13.Búsqueda de forma binaria            1407           1359
+
+
+
+PARTE 2
+
+Lista aleatoria
+
+Test             Tiempo(nanosegundos)
+----             --------------------
+Bubble sort            7671159
+Selection sort         2702706
+Insertion sort         2812175
+Quick sort             4591053
+Merge sort             5929618
+Busqueda binaria       1564
+Busqueda secuencial    27071
+
+
+Lista ordenada
+
+Test             Tiempo(nanosegundos)
+----             --------------------
+Bubble sort            5699
+Selection sort         2479836
+Insertion sort         2812175
+Quick sort             233887
+Merge sort             454987
+Busqueda binaria       1398
+Busqueda secuencial    28176
+
+
+Lista inversamente ordenada
+
+Test             Tiempo(nanosegundos)
+----             --------------------
+Bubble sort            5466897
+Selection sort         968341
+Insertion sort         1219074
+Quick sort             389327
+Merge sort             456551
+Busqueda binaria       2796
+Busqueda secuencial    31442
+
+
+Lista con elementos iguales
+
+Test             Tiempo(nanosegundos)
+----             --------------------
+Bubble sort            1642
+Selection sort         1066
+Insertion sort         967
+Quick sort             1261
+Merge sort             4331
+Busqueda binaria       1319
+Busqueda secuencial    870
